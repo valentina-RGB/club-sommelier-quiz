@@ -341,7 +341,7 @@ export default function EventsView() {
                     <div className="bg-white p-3 rounded-lg w-full mb-3">
                       <QRCode
                         width={500}
-                        url={`/client?code=${selectedEvent.access_code}`}
+                        url={`${import.meta.env.VITE_FRONTEND_URL}/client?code=${selectedEvent.access_code}`}
 
                       />
                     </div>
