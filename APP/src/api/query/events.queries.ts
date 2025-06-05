@@ -10,11 +10,11 @@ export const useEventsQuery = () => {
         queryKey: ['events'],
         queryFn: async (): Promise<EventDetail[]> => {
             try {
-                const response = await authClient.get<{ events: EventDetail[] }>('/events');
+                const response = await authClient.get<EventDetail[]>('/events');
 
-                if (!Array.isArray(response)) {
-                    return [];
-                }
+                // if (!Array.isArray(response)) {
+                //     return [];
+                // }
 
                 return response;
             } catch (error) {
