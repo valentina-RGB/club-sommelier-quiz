@@ -1,0 +1,602 @@
+[
+  {
+    "question": "¿El COLOR de la grasa del animal me indica el sistema de alimentación?",
+    "response": true,
+    "level_id": 2,
+    "categories": ["CARNES"]
+  },
+  {
+    "question": "¿El color de la GRASA de la carne no tiene nada que ver con la alimentación del animal?",
+    "response": false,
+    "level_id": 2,
+    "categories": ["CARNES"]
+  },
+  {
+    "question": "¿La grasa que llamamos MARMOLEO es la que se encuentra dentro del musculo?",
+    "response": true,
+    "level_id": 1,
+    "categories": ["CARNES"]
+  },
+  {
+    "question": "¿La grasa que se encuentra dentro del musculo se llama GRASA MUSCULAR?",
+    "response": false,
+    "level_id": 1,
+    "categories": ["CARNES"]
+  },
+  {
+    "question": "¿EL OLOR es cuando percibimos los compuestos volátiles aromáticos de un alimento vía orto nasal?",
+    "response": true,
+    "level_id": 1,
+    "categories": ["SENSORIAL"]
+  },
+  {
+    "question": "¿El OLOR es cuando captamos las partículas volátiles dentro de la boca?",
+    "response": false,
+    "level_id": 1,
+    "categories": ["SENSORIAL"]
+  },
+  {
+    "question": "¿El SISTEMA LIMBICO en el cerebro es el encardado de las emociones?",
+    "response": true,
+    "level_id": 1,
+    "categories": ["SENSORIAL"]
+  },
+  {
+    "question": "¿El SISTEMA LIMBICO del cerebro se encarga de captar el AROMA?",
+    "response": false,
+    "level_id": 1,
+    "categories": ["SENSORIAL"]
+  },
+  {
+    "question": "¿El PICANTE es una sensación TRIGEMINAL?",
+    "response": true,
+    "level_id": 1,
+    "categories": ["SENSORIAL"]
+  },
+  {
+    "question": "¿El PICANTE es un SABOR percibido por la boca?",
+    "response": false,
+    "level_id": 1,
+    "categories": ["SENSORIAL"]
+  },
+  {
+    "question": "¿Los PROBLEMAS DENTALES son causantes de la disminución de la capacidad de detectar olores?",
+    "response": true,
+    "level_id": 2,
+    "categories": ["SENSORIAL"]
+  },
+  {
+    "question": "¿Los PROBLEMAS DENTALES no tienen nada que ver con detectar olores?",
+    "response": false,
+    "level_id": 2,
+    "categories": ["SENSORIAL"]
+  },
+  {
+    "question": "¿Una de las energías que perciben los sentidos es la ENERGÍA MECANICA?",
+    "response": true,
+    "level_id": 3,
+    "categories": ["SENSORIAL"]
+  },
+  {
+    "question": "¿Una de la energía que perciben los sentidos es la ENERGIA ELECTRICA?",
+    "response": false,
+    "level_id": 3,
+    "categories": ["SENSORIAL"]
+  },
+  {
+    "question": "¿El AROMA solo se percibe vía bucal?",
+    "response": true,
+    "level_id": 1,
+    "categories": ["SENSORIAL"]
+  },
+  {
+    "question": "¿El AROMA solo lo percibimos por la NARIZ?",
+    "response": false,
+    "level_id": 1,
+    "categories": ["SENSORIAL"]
+  },
+  {
+    "question": "¿SALADO, ACIDO y AMARGO hacen parte de los 5 sabores reconocidos?",
+    "response": true,
+    "level_id": 1,
+    "categories": ["SENSORIAL"]
+  },
+  {
+    "question": "¿SALADO, ACIDO Y AMARGO hacen parte de los 8 sabores reconocidos?",
+    "response": false,
+    "level_id": 1,
+    "categories": ["SENSORIAL"]
+  },
+  {
+    "question": "¿En la lengua solo tenemos 4 TIPOS DE PAPILAS gustativas?",
+    "response": true,
+    "level_id": 1,
+    "categories": ["SENSORIAL"]
+  },
+  {
+    "question": "¿En la lengua tenemos más de 350 TIPOS DE PAPILAS gustativas?",
+    "response": false,
+    "level_id": 1,
+    "categories": ["SENSORIAL"]
+  },
+  {
+    "question": "¿La HIPOGEUCIA es cuando se reduce la capacidad de DEGUSTAR?",
+    "response": true,
+    "level_id": 2,
+    "categories": ["SENSORIAL"]
+  },
+  {
+    "question": "¿La HIPOGEUCIA es cuando se reduce la capacidad de OLER?",
+    "response": false,
+    "level_id": 2,
+    "categories": ["SENSORIAL"]
+  },
+  {
+    "question": "¿Cuándo hablamos de SOBRE ESTIMULACIÓN de uno de los sentidos, éste reduce su percepción?",
+    "response": true,
+    "level_id": 2,
+    "categories": ["SENSORIAL"]
+  },
+  {
+    "question": "¿Cuándo SOBRE ESTIMULAMOS un de los sentidos, va aumentando la percepción?",
+    "response": false,
+    "level_id": 2,
+    "categories": ["SENSORIAL"]
+  },
+  {
+    "question": "¿La ENERGIA TERMICA es percibida por la boca?",
+    "response": true,
+    "level_id": 2,
+    "categories": ["SENSORIAL"]
+  },
+  {
+    "question": "¿La ENERGIA TERMICA es percibida por la NARIZ?",
+    "response": false,
+    "level_id": 2,
+    "categories": ["SENSORIAL"]
+  },
+  {
+    "question": "¿Las PERCEPCIONES son individuales de cada ser humano?",
+    "response": true,
+    "level_id": 1,
+    "categories": ["SENSORIAL"]
+  },
+  {
+    "question": "¿Las PERSEPCIONES las perciben por igual todas las personas?",
+    "response": false,
+    "level_id": 1,
+    "categories": ["SENSORIAL"]
+  },
+  {
+    "question": "¿Los OÍDOS y la NARIZ están clasificado como órganos de percepción?",
+    "response": true,
+    "level_id": 1,
+    "categories": ["SENSORIAL"]
+  },
+  {
+    "question": "¿Los oídos y la nariz no están clasificados como sensoriales?",
+    "response": false,
+    "level_id": 1,
+    "categories": ["SENSORIAL"]
+  },
+  {
+    "question": "¿Los JUGOS que encontramos en el plato después de la cocción la carne se llama MIOGLOBINA?",
+    "response": true,
+    "level_id": 2,
+    "categories": ["CARNES"]
+  },
+  {
+    "question": "¿Los JUGOS que encontramos en un plato después de la cocción de la carne es sangre?",
+    "response": false,
+    "level_id": 2,
+    "categories": ["CARNES"]
+  },
+  {
+    "question": "¿El tiempo que se requiere para que una carne se convierta de MUSCULO A CARNE es entre 48 y 72 horas?",
+    "response": true,
+    "level_id": 1,
+    "categories": ["CARNES"]
+  },
+  {
+    "question": "¿Al sacrificar la res INMEDIATAMENTE tenemos producto cárnico?",
+    "response": false,
+    "level_id": 1,
+    "categories": ["CARNES"]
+  },
+  {
+    "question": "¿La carne VARIA SU SABOR según la alimentación que haya tenido el ganado?",
+    "response": true,
+    "level_id": 1,
+    "categories": ["CARNES"]
+  },
+  {
+    "question": "¿El sabor de la carne no se afecta por el alimento del animal?",
+    "response": false,
+    "level_id": 1,
+    "categories": ["CARNES"]
+  },
+  {
+    "question": "¿La actividad de poner una carne a MADURAR es para generar terneza y jugosidad?",
+    "response": true,
+    "level_id": 1,
+    "categories": ["CARNES"]
+  },
+  {
+    "question": "¿El MADURAR la carne se hace para solo dar color a la carne y mejorar su apariencia?",
+    "response": false,
+    "level_id": 1,
+    "categories": ["CARNES"]
+  },
+  {
+    "question": "¿Dentro de los ORGANOS que tenemos, el que se debe ENTRENAR es el cerebro?",
+    "response": true,
+    "level_id": 1,
+    "categories": ["SENSORIAL"]
+  },
+  {
+    "question": "¿Los ORGANOS de los SENTIDOS debemos entrenarlos para la percepción?",
+    "response": false,
+    "level_id": 1,
+    "categories": ["SENSORIAL"]
+  },
+  {
+    "question": "¿Para OLER UN ALIMENTO debo hacerlo como hacen los perros?",
+    "response": true,
+    "level_id": 1,
+    "categories": ["SENSORIAL"]
+  },
+  {
+    "question": "¿Entre más profundo aspiro al oler un alimento, más percibo los olores?",
+    "response": false,
+    "level_id": 1,
+    "categories": ["SENSORIAL"]
+  },
+  {
+    "question": "¿El CLORURO DE SODIO es lo mismo que la sal?",
+    "response": true,
+    "level_id": 1,
+    "categories": ["SENSORIAL"]
+  },
+  {
+    "question": "¿El CLORURO DE MAGNEZIO es el que usamos en la mesa de las casas, tambien llamado sal?",
+    "response": false,
+    "level_id": 1,
+    "categories": ["SENSORIAL"]
+  },
+  {
+    "question": "¿El RETROGUSTO es el sabor diferente que queda después de ingerir un alimento?",
+    "response": true,
+    "level_id": 1,
+    "categories": ["SENSORIAL"]
+  },
+  {
+    "question": "¿El RETROGUSTO es lo mismo que el REFLUJO?",
+    "response": false,
+    "level_id": 1,
+    "categories": ["SENSORIAL"]
+  },
+  {
+    "question": "¿La PERCISTENCIA es el sabor del alimento que queda en la boca?",
+    "response": true,
+    "level_id": 1,
+    "categories": ["SENSORIAL"]
+  },
+  {
+    "question": "¿La PERCISTENCIA es el sabor picante que permanece en boca?",
+    "response": false,
+    "level_id": 1,
+    "categories": ["SENSORIAL"]
+  },
+  {
+    "question": "¿La grasa INTERMUSCULAR es la que se encuentra entre dos o más músculos?",
+    "response": true,
+    "level_id": 2,
+    "categories": ["CARNES"]
+  },
+  {
+    "question": "¿La grasa INTERMUSCULAS es la ubicada entre la piel y el musculo del animal?",
+    "response": false,
+    "level_id": 2,
+    "categories": ["CARNES"]
+  },
+  {
+    "question": "¿AGEUSIA es la pérdida total del gusto?",
+    "response": true,
+    "level_id": 2,
+    "categories": ["SENSORIAL"]
+  },
+  {
+    "question": "¿La AGEUSIA es la perdida momentánea del gusto?",
+    "response": false,
+    "level_id": 2,
+    "categories": ["SENSORIAL"]
+  },
+  {
+    "question": "¿La HIPOSMIA es la reducción de la capacidad de DETECTAR OLORES?",
+    "response": true,
+    "level_id": 2,
+    "categories": ["SENSORIAL"]
+  },
+  {
+    "question": "¿La HIPOSMIA reduce la detección de sabores?",
+    "response": false,
+    "level_id": 2,
+    "categories": ["SENSORIAL"]
+  },
+  {
+    "question": "¿ANOSMIA es la INCAPACIDAD total de detectar olores?",
+    "response": true,
+    "level_id": 2,
+    "categories": ["SENSORIAL"]
+  },
+  {
+    "question": "¿ANOSMIA es la capacidad total de detectar olores?",
+    "response": false,
+    "level_id": 2,
+    "categories": ["SENSORIAL"]
+  },
+  {
+    "question": "¿Las MUJERES son más sensibles para el OLOR, AROMA y GUSTO?",
+    "response": true,
+    "level_id": 1,
+    "categories": ["SENSORIAL"]
+  },
+  {
+    "question": "¿Las mujeres no tienen buena capacidad sensorial para detectar OLOR, AROMA Y GUSTO?",
+    "response": false,
+    "level_id": 1,
+    "categories": ["SENSORIAL"]
+  },
+  {
+    "question": "¿Los HOMBRES son más sensibles para las TEXTURAS?",
+    "response": true,
+    "level_id": 1,
+    "categories": ["SENSORIAL"]
+  },
+  {
+    "question": "¿El HOMBRE tiene menos sensibilidad para las TEXTURAS?",
+    "response": false,
+    "level_id": 1,
+    "categories": ["SENSORIAL"]
+  },
+  {
+    "question": "¿La MASTICACIÓN es el acontecimiento más importante para la liberación de AROMAS?",
+    "response": true,
+    "level_id": 1,
+    "categories": ["SENSORIAL"]
+  },
+  {
+    "question": "¿La MASTICACIÓN es la encargada de liberar texturas?",
+    "response": false,
+    "level_id": 1,
+    "categories": ["SENSORIAL"]
+  },
+  {
+    "question": "¿El único órgano de los sentidos que percibe la ENERGIA ELECTROMAGNETICA es el ojo?",
+    "response": true,
+    "level_id": 2,
+    "categories": ["SENSORIAL"]
+  },
+  {
+    "question": "¿El ojo es el órgano que percibe la energía ELECTROMECANICA?",
+    "response": false,
+    "level_id": 2,
+    "categories": ["SENSORIAL"]
+  },
+  {
+    "question": "¿Las SENZACIONES TRIGEMINALES son las que percibe un nervio que tenemos en la cara?",
+    "response": true,
+    "level_id": 2,
+    "categories": ["SENSORIAL"]
+  },
+  {
+    "question": "¿Las SENZACIONES TRIGEMINALES son las percibidas por las manos, oído y vista?",
+    "response": false,
+    "level_id": 2,
+    "categories": ["SENSORIAL"]
+  },
+  {
+    "question": "¿El OLOR es diferente al AROMA?",
+    "response": true,
+    "level_id": 1,
+    "categories": ["SENSORIAL"]
+  },
+  {
+    "question": "¿El OLOR y el AROMA se perciben por la nariz?",
+    "response": false,
+    "level_id": 1,
+    "categories": ["SENSORIAL"]
+  },
+  {
+    "question": "¿En el cerebro el que primero recibe las señales sensoriales es el TALAMO?",
+    "response": true,
+    "level_id": 2,
+    "categories": ["SENSORIAL"]
+  },
+  {
+    "question": "¿En el cerebro el que primero recibe las señales es la IPÓFISIS?",
+    "response": false,
+    "level_id": 2,
+    "categories": ["SENSORIAL"]
+  },
+  {
+    "question": "¿MIOGLOBINA es una proteína?",
+    "response": true,
+    "level_id": 1,
+    "categories": ["CARNES"]
+  },
+  {
+    "question": "¿La MIOGLOBINA es un tipo de sangre?",
+    "response": false,
+    "level_id": 1,
+    "categories": ["CARNES"]
+  },
+  {
+    "question": "¿Para OLER un alimento NO se debe oler profundo y largo?",
+    "response": true,
+    "level_id": 2,
+    "categories": ["SENSORIAL"]
+  },
+  {
+    "question": "¿Para percibir mejor los olores, debemos aspirar lento y profundo?",
+    "response": false,
+    "level_id": 2,
+    "categories": ["SENSORIAL"]
+  },
+  {
+    "question": "¿El FLAVOR es la experiencia sensorial que involucra todos los SENTIDOS?",
+    "response": true,
+    "level_id": 1,
+    "categories": ["SENSORIAL"]
+  },
+  {
+    "question": "¿El FLAVOR es uno de los sentidos del cuerpo humano?",
+    "response": false,
+    "level_id": 1,
+    "categories": ["SENSORIAL"]
+  },
+  {
+    "question": "¿El GUSTO GRASO es el posible 6to. SABOR?",
+    "response": true,
+    "level_id": 1,
+    "categories": ["CARNES"]
+  },
+  {
+    "question": "¿El gusto a grasa no se cataloga como sabor?",
+    "response": false,
+    "level_id": 1,
+    "categories": ["CARNES"]
+  },
+  {
+    "question": "¿La LENGUA no está dividida es percepción de sabores?",
+    "response": true,
+    "level_id": 2,
+    "categories": ["SENSORIAL"]
+  },
+  {
+    "question": "¿La LENGUA se divide según la percepción?",
+    "response": false,
+    "level_id": 2,
+    "categories": ["SENSORIAL"]
+  },
+  {
+    "question": "¿El NERVIO que percibe las sensaciones irritantes es el TRIGEMINO?",
+    "response": true,
+    "level_id": 1,
+    "categories": ["SENSORIAL"]
+  },
+  {
+    "question": "¿El TRIGEMINO es un tendón que ayuda a los sentidos?",
+    "response": false,
+    "level_id": 1,
+    "categories": ["SENSORIAL"]
+  },
+  {
+    "question": "¿El envejecimiento es un trastorno del olfato?",
+    "response": true,
+    "level_id": 2,
+    "categories": ["SENSORIAL"]
+  },
+  {
+    "question": "¿El envejecimiento ayuda al olfato por la experiencia adquirida?",
+    "response": false,
+    "level_id": 2,
+    "categories": ["SENSORIAL"]
+  },
+  {
+    "question": "¿Los limpiadores del gusto son el agua, manzana verde, galletas sin sal y apio?",
+    "response": true,
+    "level_id": 1,
+    "categories": ["SENSORIAL"]
+  },
+  {
+    "question": "¿Los limpiadores del gusto son galletas de soda, un buen café aromático y masticar cilantro ?",
+    "response": false,
+    "level_id": 1,
+    "categories": ["SENSORIAL"]
+  },
+  {
+    "question": "¿El UMBRAL ABSOLUTO es aquel que detecta algunos sabores pero no los puede definir?",
+    "response": true,
+    "level_id": 3,
+    "categories": ["SENSORIAL"]
+  },
+  {
+    "question": "¿El UMBRAL ABSOLUTO es cuando detectamos todos los sabores?",
+    "response": false,
+    "level_id": 3,
+    "categories": ["SENSORIAL"]
+  },
+  {
+    "question": "¿El UMBRAL DE RECONOCIMIENTO es el estimulo más alto, o sea mas fácil de reconocer los sabores?",
+    "response": true,
+    "level_id": 3,
+    "categories": ["SENSORIAL"]
+  },
+  {
+    "question": "¿El UMBRAL DE RECONOCIMIENTO es cuando identifico el nombre del alimento?",
+    "response": false,
+    "level_id": 3,
+    "categories": ["SENSORIAL"]
+  },
+  {
+    "question": "¿La maduración de las carnes con DRY AGED es solo con aire y temperatura controlada?",
+    "response": true,
+    "level_id": 2,
+    "categories": ["CARNES"]
+  },
+  {
+    "question": "¿La maduración de la carne con DRY AGED es en bolsas selladas al vacío?",
+    "response": false,
+    "level_id": 2,
+    "categories": ["CARNES"]
+  },
+  {
+    "question": "¿Se puede encontrar una carne dura y a la vez jugosa?",
+    "response": true,
+    "level_id": 2,
+    "categories": ["CARNES"]
+  },
+  {
+    "question": "¿Siempre que encontramos una carne muy jugosa siempre será una carne tierna?",
+    "response": false,
+    "level_id": 2,
+    "categories": ["CARNES"]
+  },
+  {
+    "question": "¿La jugosidad es la capacidad que tiene la carne en retener los jugos después de cocida?",
+    "response": true,
+    "level_id": 2,
+    "categories": ["CARNES"]
+  },
+  {
+    "question": "¿Jugosidad es la capacidad que tiene una carne en recibir la salsa que le adicionamos?",
+    "response": false,
+    "level_id": 2,
+    "categories": ["CARNES"]
+  },
+  {
+    "question": "¿La TERNEZA se mide según la fuerza que hago al morder una pieza de carne?",
+    "response": true,
+    "level_id": 2,
+    "categories": ["CARNES"]
+  },
+  {
+    "question": "¿Siempre que una carne esta tierna, no tiene tejido conectivo?",
+    "response": false,
+    "level_id": 2,
+    "categories": ["CARNES"]
+  },
+  {
+    "question": "¿El tejido conectivo es el residuo que queda después de masticar un trozo de carne?",
+    "response": true,
+    "level_id": 3,
+    "categories": ["CARNES"]
+  },
+  {
+    "question": "¿Terneza y tejido conectivo es lo mismo?",
+    "response": false,
+    "level_id": 3,
+    "categories": ["CARNES"]
+  }
+]

@@ -1,0 +1,41 @@
+name: CI actions
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  CI:
+    runs-on: ubuntu-latest
+
+    env:
+      VITE_API_URL: http://localhost:3000/api/v1
+      VITE_API_BASE_URL: http://localhost:3000
+      VITE_FRONTEND_URL: http://localhost:5173
+
+    strategy:
+      matrix:
+        node-version: [18]
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v3
+
+      - name: Use Node.js ${{ matrix.node-version }}
+        uses: actions/setup-node@v3
+        with:
+          node-version: ${{ matrix.node-version }}
+
+      - name: Change to APP directory
+        run: cd APP
+        shell: bash
+
+      - name: Install dependencies
+        working-directory: ./APP
+        run: npm ci
+
+      - name: Build frontend
+        working-directory: ./APP
+        run: npm run build
