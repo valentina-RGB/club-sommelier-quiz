@@ -333,7 +333,7 @@ export default function EventsView() {
                   <Card className="bg-white/10 backdrop-blur-lg border border-white/20 p-4 mb-4 flex flex-col items-center">
                     <h3 className="text-white font-medium mb-3 flex items-center">
                       <QrCode className="h-5 w-5 mr-2" />
-                      Código QR del Evento
+                      Código QR del Eventooooo
                     </h3>
                     <p className="text-white/70 text-sm text-center mb-3">
                       Escanea el código QR para acceder al evento o comparte el enlace:
