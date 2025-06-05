@@ -151,21 +151,21 @@ p {
 }
 
 /* Links */
-a {
+/* a {
   color: var(--accent-primary);
   text-decoration: none;
   transition: color 0.2s ease;
 
-}
+} */
 
 .decoration-none {
   text-decoration: none;
 }
 
-a:hover {
+/* a:hover {
   color: var(--accent-secondary);
   text-decoration: underline;
-}
+} */
 
 /* Inputs optimizados para móvil */
 input, textarea, select {

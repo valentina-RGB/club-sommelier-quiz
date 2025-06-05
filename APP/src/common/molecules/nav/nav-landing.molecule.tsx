@@ -8,14 +8,8 @@ interface NavbarProps {
 
 export function NavbarLandind({ currentPage = 'landing' }: NavbarProps) {
   return (
-    <header className="sticky top-0 z-50 w-full border-b border-slate-200 bg-white/90 backdrop-blur-sm">
-      <div className="container mx-auto px-4 flex h-16 items-center justify-between">
-        <div className="flex items-center gap-2">
-          <div className="w-8 h-8 bg-gradient-to-r from-emerald-600 to-green-600 rounded-md flex items-center justify-center">
-            <span className="font-bold text-white">F</span>
-          </div>
-          <span className="font-bold text-xl text-slate-800">FoodEvents</span>
-        </div>
+    <header className="sticky top-0 z-50 w-full border-b border-amber-950/10 bg-[#1e120a] opacity-100 backdrop-blur-sm">
+      <div className="container mx-auto px-4 flex h-16 items-center justify-end">
         <nav className="flex items-center gap-6">
           <Link 
             to="/landing" 
@@ -38,7 +32,7 @@ export function NavbarLandind({ currentPage = 'landing' }: NavbarProps) {
             Contacto
           </Link>
           <Link to="/login">
-            <Button className="bg-gradient-to-r from-emerald-600 to-green-600 hover:from-emerald-700 hover:to-green-700">
+            <Button size="sm" className="bg-gradient-to-r text-xs from-emerald-600 to-green-600 hover:from-emerald-700 hover:to-green-700">
               <User className="mr-2 h-4 w-4" /> Iniciar Sesión
             </Button>
           </Link>
