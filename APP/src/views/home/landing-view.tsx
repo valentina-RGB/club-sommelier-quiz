@@ -4,52 +4,14 @@ import { NavbarLandind } from "@/common/molecules/nav/nav-landing.molecule"
 import { Footer } from "@/common/molecules/footer.molecule"
 import { useEventsQuery } from "@/api/query/events.queries"
 import { Button } from "@/common/ui/button"
-import imageSommelier from "@/assets/cubSommelierFont.png" // Adjust the path as needed
-import { useEffect, useState } from "react"
+import imageSommelier from "@/assets/cubSommelierFont.png" 
+
 
 export default function LandingPage() {
   // Use the real API query instead of mock data
   const { data: events, isLoading, error,refetch } = useEventsQuery()
 
-
-  const [networkError, setNetworkError] = useState(false);
-  const [timeoutError, setTimeoutError] = useState(false);
-
-  const draftEvents = events?.filter(event => event.status === "draft") || [];
-
-
-  useEffect(() => {
-    const checkNetwork = () => {
-      if (navigator.onLine) {
-        setNetworkError(false);
-        if (timeoutError || error) {
-          refetch();
-        }
-      } else {
-        setNetworkError(true);
-      }
-    };
-    
-    window.addEventListener('online', checkNetwork);
-    window.addEventListener('offline', checkNetwork);
-    
-    // Check immediately
-    checkNetwork();
-    
-    // Set a timeout for slow connections
-    const timeoutId = setTimeout(() => {
-      if (isLoading) {
-        setTimeoutError(true);
-      }
-    }, 8000);
-    
-    return () => {
-      window.removeEventListener('online', checkNetwork);
-      window.removeEventListener('offline', checkNetwork);
-      clearTimeout(timeoutId);
-    };
-  }, [isLoading, refetch, timeoutError, error]);
-
+ 
 
   return (
     <div className="max-h-[100vh] flex flex-col overflow-y-auto bg-slate-50">
@@ -156,7 +118,7 @@ export default function LandingPage() {
           )}
 
           {/* Empty State */}
-          {!isLoading && !error && draftEvents.length === 0 && (
+          {!isLoading && !error && events?.length === 0 && (
             <div className="flex flex-col items-center justify-center py-12 bg-slate-50 rounded-lg border border-slate-200">
               <Calendar className="h-12 w-12 text-slate-400 mb-4" />
               <p className="text-slate-800 font-medium mb-2">No hay eventos próximos</p>
@@ -169,9 +131,9 @@ export default function LandingPage() {
 
           {/* Events Grid */}
 
-          {!isLoading && !error && draftEvents.length > 0 && (
+          {!isLoading && !error && (events?.length ?? 0) > 0 && (
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
-              {draftEvents.map((event) => (
+              {(events ?? []).map((event) => (
                 <Card key={event.id} className="hover:shadow-lg transition-shadow bg-white border-slate-200 overflow-hidden">
                   {/* Using a default meat image since events don't have images */}
 
