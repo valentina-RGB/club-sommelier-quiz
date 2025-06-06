@@ -5,13 +5,51 @@ import { Footer } from "@/common/molecules/footer.molecule"
 import { useEventsQuery } from "@/api/query/events.queries"
 import { Button } from "@/common/ui/button"
 import imageSommelier from "@/assets/cubSommelierFont.png" // Adjust the path as needed
+import { useEffect, useState } from "react"
 
 export default function LandingPage() {
   // Use the real API query instead of mock data
-  const { data: events, isLoading, error } = useEventsQuery()
+  const { data: events, isLoading, error,refetch } = useEventsQuery()
 
-  // Filter only draft events (if needed, depending on your API)
-  const draftEvents = events?.filter(event => event.status === "draft") || []
+
+  const [networkError, setNetworkError] = useState(false);
+  const [timeoutError, setTimeoutError] = useState(false);
+
+  const draftEvents = events?.filter(event => event.status === "draft") || [];
+
+
+  useEffect(() => {
+    const checkNetwork = () => {
+      if (navigator.onLine) {
+        setNetworkError(false);
+        if (timeoutError || error) {
+          refetch();
+        }
+      } else {
+        setNetworkError(true);
+      }
+    };
+    
+    window.addEventListener('online', checkNetwork);
+    window.addEventListener('offline', checkNetwork);
+    
+    // Check immediately
+    checkNetwork();
+    
+    // Set a timeout for slow connections
+    const timeoutId = setTimeout(() => {
+      if (isLoading) {
+        setTimeoutError(true);
+      }
+    }, 8000);
+    
+    return () => {
+      window.removeEventListener('online', checkNetwork);
+      window.removeEventListener('offline', checkNetwork);
+      clearTimeout(timeoutId);
+    };
+  }, [isLoading, refetch, timeoutError, error]);
+
 
   return (
     <div className="max-h-[100vh] flex flex-col overflow-y-auto bg-slate-50">
