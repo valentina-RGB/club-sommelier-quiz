@@ -19,10 +19,10 @@ export default function LandingPage() {
       <NavbarLandind currentPage="landing" />
 
       {/* Hero Section - Improved with better styling */}
-      <section className="relative min-h-[90vh]">
+      <section className="relative md:min-h-[90vh]">
         <div className="absolute inset-0 bg-gradient-to-r from-black/80 to-black/40 z-10"></div>
         <div
-          className="absolute inset-0 bg-cover bg-center"
+          className="absolute inset-0 bg-cover bg-center pointer-events-none"
           style={{
             backgroundImage: `url(${imageSommelier})`,
             backgroundPosition: "center 40%",
