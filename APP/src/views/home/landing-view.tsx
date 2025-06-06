@@ -31,7 +31,7 @@ export default function LandingPage() {
         <div className="container mx-auto px-8 relative z-20 h-full flex flex-col justify-center items-start text-white">
           <div className="max-w-3xl pt-10">
             <div className="inline-block mb-3 px-4 py-1 bg-emerald-600/20 backdrop-blur-sm rounded-full">
-              <span className="text-sm font-medium tracking-wide text-emerald-300">EXPERIENCIA GASTRONÓMICA PREMIUM</span>
+              <span className="text-sm font-medium tracking-wide text-emerald-300">EXPERIENCIA PREMIUM</span>
             </div>
             <h1 className="text-6xl md:text-7xl lg:text-8xl font-light mb-8 leading-tight tracking-tight">
               <span className="text-white block">CLUB</span>
@@ -88,7 +88,7 @@ export default function LandingPage() {
       </section>
 
       {/* Events Section - Enhanced with loading, error, and empty states */}
-      <section id="events" className="py-16 bg-white">
+      <section id="events" className="py-16 min-h-[80vh] bg-gradient-to-b from-[#d3b89d] via-[#f5e8d6] to-[#fdf9f4]">
         <div className="container mx-auto px-4">
           <div className="text-center mb-10">
             <h2 className="text-3xl font-bold mb-4 text-slate-800">Próximos Eventos</h2>
