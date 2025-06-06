@@ -1,15 +1,15 @@
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/common/ui/card"
-import { Calendar, Clock, MapPin, AlertCircle, Loader2 } from "lucide-react"
+import { Calendar, Clock, AlertCircle, Loader2 } from "lucide-react"
 import { NavbarLandind } from "@/common/molecules/nav/nav-landing.molecule"
 import { Footer } from "@/common/molecules/footer.molecule"
-import { useEventsQuery } from "@/api/query/events.queries"
+import { useEventsByStatusQuery} from "@/api/query/events.queries"
 import { Button } from "@/common/ui/button"
 import imageSommelier from "@/assets/cubSommelierFont.png" 
 
 
 export default function LandingPage() {
   // Use the real API query instead of mock data
-  const { data: events, isLoading, error,refetch } = useEventsQuery()
+  const { data: events, isLoading, error,refetch } = useEventsByStatusQuery()
 
  
 
