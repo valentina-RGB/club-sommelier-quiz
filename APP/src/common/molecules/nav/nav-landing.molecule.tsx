@@ -12,7 +12,7 @@ export function NavbarLandind({ currentPage = 'landing' }: NavbarProps) {
       <div className="container mx-auto px-4 flex h-16 items-center justify-end">
         <nav className="flex items-center gap-6">
           <Link 
-            to="/landing" 
+            to="/" 
             className={`text-sm font-medium transition-colors ${
               currentPage === 'landing' 
                 ? 'text-emerald-600' 

@@ -1,5 +1,4 @@
-import { Link } from "react-router-dom"
-import { Button } from "@/common/atoms/Button"
+
 
 export function Footer() {
   return (
@@ -13,7 +12,7 @@ export function Footer() {
               </div>
               <span className="font-bold text-xl text-white">lub Sommelier</span>
             </div>
-            <p className="text-sm text-slate-400">
+            <p className="text-sm text-slate-300">
               Descubre los mejores eventos gastronómicos y experiencias culinarias en tu ciudad.
             </p>
           </div>
@@ -21,10 +20,10 @@ export function Footer() {
       
           <div>
             <h3 className="font-bold text-white mb-4">Contacto</h3>
-            <ul className="space-y-2 text-sm text-slate-400">
+            <ul className="space-y-2 text-sm text-slate-300">
               <li>info@foodevents.com</li>
-              <li>+1 (555) 123-4567</li>
-              <li>Calle Principal 123, Ciudad</li>
+              <li>+57 312 871 68 75</li>
+              <li>Por definir</li>
             </ul>
           </div>
 
