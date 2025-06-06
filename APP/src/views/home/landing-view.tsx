@@ -2,14 +2,14 @@ import { Card} from "@/common/ui/card"
 import { Calendar, Clock, AlertCircle, Loader2 } from "lucide-react"
 import { NavbarLandind } from "@/common/molecules/nav/nav-landing.molecule"
 import { Footer } from "@/common/molecules/footer.molecule"
-import { useEventsByStatusQuery } from "@/api/query/events.queries"
+import { useEventsByStatusQuery, useEventsQuery } from "@/api/query/events.queries"
 import { Button } from "@/common/ui/button"
 import imageSommelier from "@/assets/cubSommelierFont.png"
 
 
 export default function LandingPage() {
   // Use the real API query instead of mock data
-  const { data: events, isLoading, error, refetch } = useEventsByStatusQuery()
+  const { data: events, isLoading, error, refetch } = useEventsQuery()
 
 
 
@@ -68,7 +68,7 @@ export default function LandingPage() {
               <span className="w-3 h-3 absolute top-2 bg-emerald-400 rounded-full animate-pulse"></span>
               <p className="px-6 text-white/80 text-sm">Reservaciones abiertas</p>
             </div>
-            <div className="hidden md:flex items-center gap-8">
+            <div className="space-y-2 sm:space-y-0 md:flex items-center gap-8">
               {
                 contacts.map((contact) => (
                   <a
@@ -157,11 +157,11 @@ export default function LandingPage() {
           {/* Events Grid */}
 
           {!isLoading && !error && (events?.length ?? 0) > 0 && (
-            <div className="grid grid-cols-1 sm:grid-cols-3 md:grid-cols-3 gap-3">
+            <div className="grid grid-cols-1 sm:grid-cols-3 md:grid-cols-3 gap-6">
               {(events ?? []).map((event) => (
                 <Card
                   key={event.id}
-                  className="hover:shadow-md transition-shadow bg-[#e2b591] border-none overflow-hidden md:min-w-[50vh] mx-auto transform hover:-translate-y-1"
+                  className="hover:shadow-md transition-shadow bg-[#e2b591] border-none overflow-hidden w-full mx-auto transform hover:-translate-y-1"
                 >
                   {/* Card inner with business card styling */}
                   <div className="p-4 pb-3 relative">
